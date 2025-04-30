@@ -10,6 +10,9 @@
 #include "mt7981.dtsi"
 
 / {
+        model = "CMCC XR30";
+ 	compatible = "cmcc,XR30", "mediatek,mt7981";
+
 	aliases {
 		led-boot = &red_led;
 		led-failsafe = &red_led;
